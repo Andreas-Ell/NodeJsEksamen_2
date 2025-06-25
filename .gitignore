@@ -1,0 +1,24 @@
+# Fælles
+node_modules/
+dist/
+build/
+.env
+.env.local
+.DS_Store
+package-lock.json
+
+# VS Code
+.vscode/
+
+# Client (Svelte + Vite)
+client/node_modules/
+client/.vite/
+client/.svelte-kit/
+client/build/
+client/dist/
+client/.cache/
+
+# Server (Node.js)
+server/node_modules/
+server/logs/
+server/tmp/
